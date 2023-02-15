@@ -39,3 +39,7 @@ a:hover, a:active{
 /*header li:nth-child(3){
 	font-size: 20px;
 }*/
+.font{
+	font-family: Times new roman, Helvetica, sans-serif;
+	font-size: 25px;
+}
