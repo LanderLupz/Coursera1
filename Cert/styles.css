@@ -98,18 +98,39 @@ clear: left;
 #p4{
 background-color: white;
 }
-.cols{
-	background-color: #00A5FF: 
-}
+
 .colp p{
 	width: 50%;
-	border: 1px solid black;
 	float: left;
+	padding: 10px;
 }
-#cp1{
-	background-color: yellow;
+div#container{
+	background-color: red;
+	position: relative;
+	top: 60px;
+}
+#container p{
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	margin-bottom: 15px;
 
 }
-#cp2{
-	background-color: gray;
+#PE1{
+background-color: #DEB887;
+position: relative;
+top: 65px;
+left: 65px;
+}
+#PE2{
+background-color: #5F9EA0;
+}
+#PE3{
+background-color: #FF7F50;
+position: absolute;
+top: 0;
+left: 0;
+}
+#PE4{
+background-color: #FFB880;
 }
