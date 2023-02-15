@@ -1,8 +1,21 @@
+*{
+	box-sizing: border-box;
+	
+}
 body{
-	background-color: #ffffff;
+	background-color: #003030;
+	color: white;
+
+}
+#bg{
+	width: 500px;
+	height: 500px;
+	background: url("lands.jpg") no-repeat bottom;
+	
+
 }
 
-h1{
+h1.hed{
 	text-align: center;
 	color: red;
 	border: 3px solid red;
@@ -15,7 +28,7 @@ h1{
 ul.things{
 	font-style: italic;
 	font-size: 20px;
-
+	color: white;
 }
 header li{
 	list-style: none;
@@ -44,4 +57,59 @@ a:hover, a:active{
 	font-size: 25px;
 	font-weight: bold;
 	text-align: justify;
+	text-transform: uppercase;
+}
+.font1{
+	font-size: 2em;
+	background-color: red;
+
+}
+.box{
+	margin: 40px;
+	padding: 10px 10px 10px 10px;
+	background-color: green;
+	width: 500px;
+	height: 100px;
+	overflow: auto;
+	
+}
+.floatbg{
+	background-color: #00FFFF;
+}
+.pbox p{
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	}
+#p1{
+background-color: pink;
+float: left;
+height: 250px;
+}
+#p2{
+background-color: green;
+float: right;
+height: 100px;
+}
+#p3{
+background-color: blue;
+clear: left;
+}
+#p4{
+background-color: white;
+}
+.cols{
+	background-color: #00A5FF: 
+}
+.colp p{
+	width: 50%;
+	border: 1px solid black;
+	float: left;
+}
+#cp1{
+	background-color: yellow;
+
+}
+#cp2{
+	background-color: gray;
 }
