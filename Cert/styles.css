@@ -42,4 +42,6 @@ a:hover, a:active{
 .font{
 	font-family: Times new roman, Helvetica, sans-serif;
 	font-size: 25px;
+	font-weight: bold;
+	text-align: justify;
 }
